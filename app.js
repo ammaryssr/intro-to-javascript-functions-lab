@@ -132,7 +132,16 @@ Complete the exercise in the space below:
 
 const maxOfThree = function(a,b,c)
 {
-    return number;
+    if (a > b && c) {
+        return a;
+      } 
+      if (b > a && c) {
+        return a;
+      }
+      else {
+        return c;
+      }
+
 }
 
 console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
